@@ -1,0 +1,492 @@
+@font-face
+{
+    font-family: 'BallparkWeiner';
+    src: url('fonts/ballpark.eot');
+    src: url('fonts/ballpark.eot?#iefix') format('embedded-opentype'),
+         url('fonts/ballpark.woff') format('woff'),
+         url('fonts/ballpark.ttf') format('truetype'),
+         url('fonts/ballpark.svg#BallparkWeiner') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'Dayrom';
+    src: url('fonts/dayrom.eot');
+    src: url('fonts/dayrom.eot?#iefix') format('embedded-opentype'),
+         url('fonts/dayrom.woff') format('woff'),
+         url('fonts/dayrom.ttf') format('truetype'),
+         url('fonts/dayrom.svg#Dayrom') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background-image: url("images/yellow_background.png");
+    box-sizing: border-box;
+    margin: 10px 55px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: #181818;
+}
+
+#logo{
+    display: inline;
+    padding-top: 10px;
+}
+
+h1{
+    display: inline;
+    font-size: 45px;
+    font-family: 'BallparkWeiner', serif;
+    padding-left: 3px;
+    font-weight: lighter;
+}
+
+.header-links{
+    margin-top: 20px;
+}
+
+.header-links h2{
+    float: left;
+    font-family: 'Dayrom', serif;
+    font-size: 1.2em;
+    margin: 0;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.header-links nav{
+    float: right;
+}
+
+.header-links a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Dayrom', serif;
+    font-weight: normal;
+    font-size: 1.3em;
+    padding: 10px;
+    letter-spacing: 1px;
+}
+
+.header-links a:hover{
+    color: rgb(223, 101, 148);
+}
+
+.line{
+    width: 91vw;
+    height: 3.5px;
+}
+
+.sfimg{
+    margin-top: 15px;
+    color:white;
+}
+
+#sf{
+    width: 91vw;
+    border-radius: 8px;
+    box-shadow: 3px 4px 4px rgb(48, 46, 46),
+    -3px 3px 4px rgb(48, 46, 46);
+    position: relative;
+}
+
+.bottomimg{
+    position: absolute;
+    background-color: black;
+    opacity: 0.65;
+    margin-top: -54px;
+    width: 91vw;
+    height: 50px;
+}
+
+.bottom-left{
+    position: absolute;
+    margin-top: -36px;
+    margin-left: 5px;
+    font-size: 1em;     
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+button{
+    position: absolute;
+    margin-top: -42px;
+    margin-left: 80vw;
+    color: white;
+    background-image: linear-gradient(rgba(122, 3, 3, 0.61),rgb(122, 3, 3));
+    font-size: 15px;
+    width: 9%;
+    padding: 5px 0.1px;
+    border: 2px solid rgb(122, 3, 3);
+    border-radius: 6px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+button:hover{
+    background-color: rgb(223, 101, 148);
+    cursor: pointer;
+}
+
+#pin{
+    margin-top: 50px;
+    width: 50px;
+}
+
+article{
+    width: 60vw;
+    display: block;
+    float: left;
+}
+
+article h3{
+    margin: 0;
+    padding-left: 10px;
+    font-family: Dayrom, serif;
+    font-weight: 500;
+    display: inline-block;
+    vertical-align: 20px;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+}
+ article p{
+     text-align: justify;
+ }
+
+ aside{
+     display: block;
+     float: right;
+     background-color: #706b64;
+     width: 29vw;
+     margin-top: 30px;
+     margin-right: -12px;
+     border-radius: 8px;
+     box-shadow: 1px 1px 4px rgb(121, 118, 118),
+    -1px 1px 4px rgb(121, 118, 118);
+ }
+
+ aside h3{
+    margin: 0;
+    font-family: Dayrom, serif;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: white;
+    vertical-align: 200px;
+    padding-top: 20px;
+ }
+
+ #zozor{
+    margin-left: 7.5vw;
+    padding-top: 20px;
+    padding-bottom: 0;
+    width: 45%;
+ }
+
+ aside p{
+     text-align: justify;
+     color: white;
+     padding: 4px 20px;
+ }
+
+#facebook{
+    padding-left: 35px;
+}
+ 
+aside img{
+     width: 3.6vw;
+     padding-left:8px;
+     padding-bottom: 20px;
+}
+
+#attach{
+    width: 15px;
+    height: 20px;
+    margin-top: 130px;
+    float: right;
+}
+
+#arr{
+    width: 15px;
+    height: 20px;
+}
+
+#lastpara{
+    margin-bottom: 3px;
+}
+
+#toparr{
+    margin-left: 40vw;
+    margin-top: -7px;
+}
+
+footer{
+width: 94vw;
+}
+
+footer h3{
+    margin: 0;
+    font-family: Dayrom, serif;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+}
+
+#foot1{
+    height: 120px;
+    width: 190px;
+    display: inline-block;
+    vertical-align: 30px;
+}
+
+#foot1 h3{
+    vertical-align: 50px;
+}
+
+#foot2{
+    height: 120px;
+    width: 310px;
+    display: inline-block;
+    margin-left: 140px;
+    vertical-align: 15px;
+}
+
+#foot2 h3{
+margin-bottom: 10px;
+}
+
+#foot2 img{
+    border: solid 1.4px black;
+}
+
+#foot3{
+    height: 120px;
+    width: 150px;
+    display: inline-block;
+    vertical-align: 6px;
+    margin-left: 20px;
+}
+
+#foot3 h3{
+    width: 150px;
+    margin-left: 30px;
+}
+
+#foot4{
+    height: 120px;
+    width: 140px;
+    display: inline-block;
+    margin-left: 50px;
+    vertical-align: 5px;
+}
+
+#foot4 ul{
+    padding-left: 0;
+}
+
+footer li{
+    list-style-image: url(images/external_link.png);
+    color: rgb(122, 3, 3);
+}
+
+@media only screen and (max-width: 1170px){
+    article{
+        width: 55vw;
+    }
+}
+
+@media only screen and (max-width: 1080px){
+    #foot2{
+        margin-left: 35px;
+    }
+}
+
+@media only screen and (max-width: 990px){
+    button{
+        width: 100px;
+    }
+}
+
+@media only screen and (max-width: 990px){
+    #foot2{
+        margin-left: 20px;
+    }
+    
+    #foot3{
+        margin-left: 8px;
+    }
+}
+
+@media only screen and (max-width: 954px){
+    #foot2{
+        margin-left: 10px;
+    }
+    
+    #foot3{
+        margin-left: 0;
+    }
+
+    button{
+        margin-left: 78vw;
+    }
+}
+
+@media only screen and (max-width: 954px){
+    #foot2 img{
+        width: 60px;
+    }
+
+    #foot2{
+        vertical-align: 23.8px;
+        width: 270px;
+    }  
+}
+
+@media only screen and (max-width: 954px){
+    body{
+        margin-left: 20px;
+    }
+}
+
+@media only screen and (max-width: 893px)
+{
+    #foot3 li{
+        font-size: 14px;
+    }
+
+    #foot4 li{
+        font-size: 14px;
+    }
+
+    #foot2 img{
+        width: 50px;
+    }
+
+    #foot1 p{
+        font-size: 14px;
+    }
+
+    #foot3{
+        margin-left: 1px;
+        vertical-align: 10px;
+    }
+
+    #foot4{
+        margin-left: 10px;
+        vertical-align: 10px;
+    }
+}
+
+@media only screen and (max-width: 840px){
+    #foot3{
+        margin-left: -40px;
+    }
+
+    button{
+        margin-left: 75vw;
+    }
+
+    aside img{
+        padding-left: 2px;
+    }
+}
+
+@media only screen and (max-width: 805px)
+{
+    #foot2{
+        margin-left: -30px;
+        vertical-align: 28px;
+
+    }
+
+    #foot1 p{
+        font-size: 14px;
+    }
+
+    footer h3{
+        font-size: 16px;
+    }
+
+    #foot2 img{
+        width: 45px;
+    }
+
+    #foot3{
+        margin-left: -80px;
+    }
+
+    #foot3 li{
+        font-size: 14px;
+    }
+
+    #foot4 li{
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 707px){
+    .header-links{
+        height: 150px;
+    }
+
+    .header-links nav{
+        margin-top: 40px;
+        margin-left: -135px;
+        float: left;
+    }
+
+    .header-links nav a{
+        display: block;
+        text-align: left;
+        padding-top: 1px;
+    }
+
+    aside{
+        display: inline;
+        margin-top: 40px;
+        margin-right: 350px;
+    }
+
+    article{
+        width: 92vw;
+    }
+
+    #attach{
+        display: none;
+    }
+
+    #arr{
+        display: none;
+    }
+
+    #toparr{
+        display: none;
+    }
+
+    footer{
+        display: inline-block;
+        position: absolute;
+        width: 350px;
+        height: 400px;
+        left: 270px;
+        top: 1100px;
+    }
+
+    #foot1{
+        margin-left: 150px;
+    }
+
+    #foot2{
+        margin-left: 150px;
+    }
+
+    #foot3{
+        margin-left: 118px;
+    }
+
+    #foot4{
+        margin-left: 300px;
+        margin-bottom: 550px;
+    }
+}
